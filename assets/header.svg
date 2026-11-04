@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0f0c29"><animate attributeName="stop-color" values="#0f0c29;#1b1464;#42106b;#0f0c29" dur="12s" repeatCount="indefinite"/></stop>
+<stop offset="0.5" stop-color="#302b63"><animate attributeName="stop-color" values="#302b63;#6a1b9a;#0b486b;#302b63" dur="12s" repeatCount="indefinite"/></stop>
+<stop offset="1" stop-color="#24243e"><animate attributeName="stop-color" values="#24243e;#b3135f;#0f2027;#24243e" dur="12s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#9df7ff"/><stop offset="1" stop-color="#ffffff"/>
+<animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="5s" repeatCount="indefinite"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="c"><rect width="1000" height="260" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1000" height="260" fill="url(#bg)"/>
+<circle cx="351" cy="68" r="3" fill="#00f5ff" opacity="0.6"><animate attributeName="cy" values="68;54;68" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="860" cy="167" r="2" fill="#00f5ff" opacity="0.6"><animate attributeName="cy" values="167;153;167" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="584" cy="46" r="2" fill="#ff2d95" opacity="0.6"><animate attributeName="cy" values="46;32;46" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="246" cy="41" r="2" fill="#ffffff" opacity="0.6"><animate attributeName="cy" values="41;27;41" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="125" cy="178" r="2.5" fill="#ff2d95" opacity="0.6"><animate attributeName="cy" values="178;164;178" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="716" cy="166" r="3" fill="#ffffff" opacity="0.6"><animate attributeName="cy" values="166;152;166" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="833" cy="76" r="2" fill="#7f52ff" opacity="0.6"><animate attributeName="cy" values="76;62;76" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="60" cy="49" r="2.5" fill="#7f52ff" opacity="0.6"><animate attributeName="cy" values="49;35;49" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="628" cy="157" r="3" fill="#00f5ff" opacity="0.6"><animate attributeName="cy" values="157;143;157" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/></circle>
+<g transform="translate(0 0)"><path d="M0 205 Q125 175 250 205 T500 205 T750 205 T1000 205 T1250 205 T1500 205 T1750 205 T2000 205 V260 H0 Z" fill="#ffffff" opacity="0.07"><animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="14s" repeatCount="indefinite"/></path></g>
+<g transform="translate(0 8)"><path d="M0 205 Q125 175 250 205 T500 205 T750 205 T1000 205 T1250 205 T1500 205 T1750 205 T2000 205 V260 H0 Z" fill="#00f5ff" opacity="0.1"><animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="9s" repeatCount="indefinite"/></path></g>
+<g transform="translate(0 16)"><path d="M0 205 Q125 175 250 205 T500 205 T750 205 T1000 205 T1250 205 T1500 205 T1750 205 T2000 205 V260 H0 Z" fill="#ff2d95" opacity="0.12"><animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="6s" repeatCount="indefinite"/></path></g>
+<text x="500" y="118" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="2" fill="url(#ttl)" filter="url(#glow)">CipherTun</text>
+<text x="500" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#00f5ff" opacity="0">Building Android networking tools<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.180;0.200;0.995;1" dur="15s" repeatCount="indefinite"/></text>
+<text x="500" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#00f5ff" opacity="0">Crafting VPN &amp; proxy technology<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.200;0.220;0.380;0.400;1" dur="15s" repeatCount="indefinite"/></text>
+<text x="500" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#00f5ff" opacity="0">Network intelligence &amp; host discovery<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.400;0.420;0.580;0.600;1" dur="15s" repeatCount="indefinite"/></text>
+<text x="500" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#00f5ff" opacity="0">DNS, TLS &amp; HTTP/HTTPS diagnostics<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.600;0.620;0.780;0.800;1" dur="15s" repeatCount="indefinite"/></text>
+<text x="500" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#00f5ff" opacity="0">Security tooling for Android / Termux<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.800;0.820;0.980;1.000;1" dur="15s" repeatCount="indefinite"/></text>
+<text x="500" y="212" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" letter-spacing="3" fill="#ffffff" opacity="0.75">ANDROID NETWORKING  •  VPN  •  NETWORK INTELLIGENCE  •  SECURITY</text>
+</g>
+</svg>
